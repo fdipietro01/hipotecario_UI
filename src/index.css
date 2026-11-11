@@ -1,0 +1,8 @@
+body { font-family: system-ui, sans-serif; background: #f4f6fa; margin: 0; color: #1d2433; }
+main { max-width: 1000px; margin: 0 auto; padding: 24px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.card { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.bar { background: #e3e8f0; border-radius: 999px; height: 14px; overflow: hidden; margin: 12px 0; }
+.fill { background: linear-gradient(90deg, #3b82f6, #10b981); height: 100%; transition: width .6s; }
+.muted { color: #6b7280; font-size: 14px; margin: 4px 0; }
+.error { color: #b91c1c; padding: 24px; }
